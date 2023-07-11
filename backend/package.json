@@ -1,0 +1,21 @@
+{
+  "name": "stripe-integration-backend",
+  "version": "1.0.0",
+  "description": "backend server for integrating Stripe payments",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahabal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "razorpay": "^2.9.0",
+    "stripe": "^12.12.0"
+  }
+}
